@@ -1,0 +1,38 @@
+video{
+  width:100%;
+}
+.danmu{
+  display: flex;
+  flex-direction: row;
+}
+input{
+  border: 5rpx solid #FFDEAD;
+  height: 70rpx;
+  flex-grow: 1;/*扩张多余空间，使得文本占满多余空间*/
+}
+button{
+  color: white;
+  background-color: #FFDEAD;
+}
+.videoList{
+  width: 100%;
+  min-height: 400rpx;/*最小高度*/
+}
+.videoBar{
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1rpx solid #FFDEAD;
+  margin: 10rpx;
+}
+image{
+  width:70rpx;
+  height: 70rpx;
+  margin: 20rpx;
+}
+text{
+  font-size: 45rpx;
+  color: #FFDEAD;
+  margin: 20rpx;
+  flex-grow: 1;
+}
